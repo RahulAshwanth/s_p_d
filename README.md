@@ -1,4 +1,7 @@
-# Spam Detection Using Machine Learning 
+# SpamDetectAI: NLP & ML-Based Spam Classification Intelligent Message Filtering System 
+# Author
+
+Rahul Ashwanth
 ## Project Overview
 This project implements a machine learning-based spam detection system. By utilizing a dataset of text messages labeled as "spam" or "ham" (non-spam), multiple machine learning algorithms are applied and compared to identify the most effective model for this task. The goal is to maximize classification accuracy while ensuring robustness and reliability.
 ## Key Features
@@ -26,7 +29,30 @@ The project uses a publicly available dataset of text messages. Each entry consi
 - Pandas & NumPy for data manipulation
 - Seaborn & Matplotlib for visualization
 - Scikit-learn for machine learning models
-**Steps Involved**
+## Steps Involved
+**1. Data Preprocessing**
+- Load and explore the dataset.
+- Handle missing or irrelevant data.
+- Convert text labels into numerical form.
+  
+**2. Exploratory Data Analysis (EDA)**
+- Visualize the distribution of spam vs. ham messages.
+- Analyze word frequency and patterns.
+  
+**3. Feature Engineering**
+- Convert text messages into numerical representations (TF-IDF, Count Vectorization, etc.).
+  
+**4. Machine Learning Models Used**
+- Naïve Bayes
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Random Forest
+- Decision Tree
+  
+**5. Model Evaluation**
+- Train and test each model.
+- Compare accuracy, precision, recall, and F1-score.
+- Select the best-performing model.
 ## How It Works
 - Preprocessing:
   - Remove noise (e.g., punctuation, stopwords).
@@ -60,3 +86,13 @@ The model with the best performance achieved:
 * Start with Multinomial Naive Bayes for a quick, reliable baseline.
 * Logistic Regression could be a good alternative if you want to capture more nuanced relationships between features and the target.
 * Experiment with SVM or Random Forests if your model is underperforming and you suspect more complex patterns exist in the data.
+## Future Scope
+- Experiment with deep learning models (LSTMs, Transformers).
+- Use advanced NLP techniques for better text representation.
+- Optimize models using hyperparameter tuning.
+## How to Use
+- Clone the repository.
+- Install the required dependencies using pip install -r requirements.txt.
+- Run the Jupyter Notebook to train and test the models.
+
+
