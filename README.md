@@ -21,6 +21,12 @@ This project implements a machine learning-based spam detection system. By utili
 The project uses a publicly available dataset of text messages. Each entry consists of:
 - A label: "spam" or "ham"
 - The message text
+## Tools & Libraries Used
+- Python for scripting and model development
+- Pandas & NumPy for data manipulation
+- Seaborn & Matplotlib for visualization
+- Scikit-learn for machine learning models
+**Steps Involved**
 ## How It Works
 - Preprocessing:
   - Remove noise (e.g., punctuation, stopwords).
