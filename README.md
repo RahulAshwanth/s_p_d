@@ -1,4 +1,4 @@
-# SpamDetectAI: NLP & ML-Based Spam Classification Intelligent Message Filtering System 
+# SpamDetectAI: NLP & ML-Based Spam Classification Intelligent Message Filtering System
 # Author
 
 Rahul Ashwanth
