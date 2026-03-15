@@ -7,7 +7,7 @@ This project implements a machine learning-based spam detection system. By utili
 ## Key Features
 - Data Preprocessing: Techniques such as text cleaning, tokenization, and vectorization using TF-IDF were applied to transform raw text data into a suitable format for modeling.
 * Exploratory Data Analysis (EDA): Insights into the dataset were obtained using visualizations and statistical summaries to understand the characteristics of spam and non-spam messages.
-* Model Implementation: Several machine learning algorithms were implemented and tuned to optimize their performance:ss
+* Model Implementation: Several machine learning algorithms were implemented and tuned to optimize their performance:ssd
   - Logistic Regression
   - Naive Bayes
   - Random Forest
