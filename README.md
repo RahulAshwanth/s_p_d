@@ -3,7 +3,7 @@
 
 Rahul Ashwanth
 ## Project Overview
-This project implements a machine learning-based spam detection system. By utilizing a dataset of text messages labeled as "spam" or "ham" (non-spam), multiple machine learning algorithms are applied and compared to identify the most effective model for this task. The goal is to maximize classification accuracy while ensuring robustness and reliability.m
+This project implements a machine learning-based spam detection system. By utilizing a dataset of text messages labeled as "spam" or "ham" (non-spam), multiple machine learning algorithms are applied and compared to identify the most effective model for this task. The goal is to maximize classification accuracy while ensuring robustness and reliability.
 ## Key Features
 - Data Preprocessing: Techniques such as text cleaning, tokenization, and vectorization using TF-IDF were applied to transform raw text data into a suitable format for modeling.
 * Exploratory Data Analysis (EDA): Insights into the dataset were obtained using visualizations and statistical summaries to understand the characteristics of spam and non-spam messages.
